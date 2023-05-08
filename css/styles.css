@@ -30,7 +30,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
- }
+}
 
 body {
   background-color: var(--background-color);
@@ -55,8 +55,9 @@ body {
   margin-right: auto;
   width: 1128px;
 }
-.main-header-wrapper{
+.main-header > .container {
   display: flex;
+  border-bottom: 1px solid var(--button-border-color);
 }
 .navigation {
   display: flex;
@@ -100,7 +101,6 @@ body {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-
 
 .menu-link {
   font-weight: 500;
@@ -154,11 +154,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 496px;
-  
 }
 
 .hero-btn {
-  display:  flex;
+  display: flex;
   background: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -167,7 +166,6 @@ body {
   height: 56px;
   padding: 16px 32px;
   border: 0px;
-  
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -325,7 +323,6 @@ footer {
   color: var(--button-color);
   cursor: pointer;
 }
-
 
 .button:hover,
 .button:focus {
