@@ -51,12 +51,12 @@ body {
 /* Header */
 
 .container {
-  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   width: 1128px;
+}
+.main-header-wrapper{
   display: flex;
-  justify-content: center;
 }
 .navigation {
   display: flex;
@@ -101,17 +101,6 @@ body {
   color: var(--title-text-color);
 }
 
-.logopart-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--footer-text-color);
-}
 
 .menu-link {
   font-weight: 500;
@@ -151,6 +140,7 @@ body {
 /* HERO */
 .hero {
   background: var(--background-section-color);
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -161,23 +151,26 @@ body {
   letter-spacing: 0.02em;
   color: var(--background-color);
   padding-top: 188px;
-  margin-left: 472px;
-  margin-right: 472px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 496px;
+  
 }
 
-.btn {
-  display: inline-flex;
+.hero-btn {
+  display:  flex;
   background: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin: 48px 635px 188px 636px;
+  margin: 48px auto 0 auto;
   width: 169px;
   height: 56px;
   padding: 16px 32px;
   border: 0px;
+  
 }
-.btn:hover,
-.btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -313,9 +306,8 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
-}
-.footer > a {
-  margin-bottom: 16px;
+  width: 264px;
+  margin-top: 16px;
 }
 
 /* PORTFOLIO */
@@ -334,9 +326,6 @@ footer {
   cursor: pointer;
 }
 
-/* .button-pool:not(:last-child) {
-  margin-right: 24px;
-} */
 
 .button:hover,
 .button:focus {
@@ -356,6 +345,7 @@ footer {
   gap: 24px;
   margin-bottom: 72px;
   margin-top: 96px;
+  justify-content: center;
 }
 .card-list {
   display: flex;
