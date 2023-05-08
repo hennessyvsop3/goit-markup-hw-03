@@ -53,12 +53,12 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1128px;
+  width: 1158px;
 }
-.container1 {
+.header-container {
   margin-left: auto;
   margin-right: auto;
-  width: 1128px;
+  width: 1158px;
   display: flex;
 }
 .main-header > .container {
