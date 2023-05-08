@@ -55,6 +55,12 @@ body {
   margin-right: auto;
   width: 1128px;
 }
+.container1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  display: flex;
+}
 .main-header > .container {
   display: flex;
   border-bottom: 1px solid var(--button-border-color);
