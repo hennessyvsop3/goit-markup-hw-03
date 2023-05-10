@@ -62,9 +62,9 @@ body {
   width: 1158px;
   display: flex;
 }
-.main-header{
+.main-header {
   display: flex;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
   /* border-bottom: 1px solid var(--button-border-color); */
 }
 .navigation {
@@ -120,6 +120,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* Contacts */
