@@ -245,10 +245,13 @@ body {
   color: var(--title-text-color);
 }
 
+.doings-section{
+  padding-bottom: 120px;
+}
+
 .doings {
   display: flex;
   margin-top: 72px;
-  margin-bottom: 120px;
 }
 
 .doings-item:not(:nth-child(3n)) {
@@ -259,10 +262,10 @@ body {
 .ourteam {
   background-color: var(--background-sectionteam-color);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .team {
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 .our-team {
   display: flex;
