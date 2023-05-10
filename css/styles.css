@@ -42,6 +42,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: inherit;
 }
 .link:hover,
 .link:focus {
