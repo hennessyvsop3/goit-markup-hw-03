@@ -253,7 +253,7 @@ body {
   padding-bottom: 120px;
 }
 
-.doings-title{
+.doings-title {
   margin-bottom: 72px;
 }
 .doings {
@@ -297,7 +297,20 @@ footer {
 .footer {
   padding: 100px 0;
 }
-
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: inline-block;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-color);
+  margin-right: 76px;
+  padding-left: 0;
+  margin-bottom: 16px;
+}
 .footer-logopart {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -326,7 +339,6 @@ footer {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
   width: 264px;
-  margin-top: 16px;
 }
 
 /* PORTFOLIO */
@@ -343,6 +355,7 @@ footer {
   letter-spacing: 0.04em;
   color: var(--button-color);
   cursor: pointer;
+  padding: 12px 24px;
 }
 
 .button:hover,
@@ -352,17 +365,19 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--background-color);
+  border: 1px solid transparent;
 }
 
 .hide-title {
   display: none;
 }
-
+.portfolio-1 {
+  padding: 96px 0 120px;
+}
 .button-pool {
   display: flex;
   gap: 24px;
   margin-bottom: 72px;
-  margin-top: 96px;
   justify-content: center;
 }
 .card-list {
@@ -370,7 +385,6 @@ footer {
   flex-wrap: wrap;
   margin-bottom: -48px;
   margin-right: -24px;
-  padding-bottom: 120px;
 }
 .card-item {
   flex-basis: calc(100% / 3 -24px);
