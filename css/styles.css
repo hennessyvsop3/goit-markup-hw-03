@@ -327,7 +327,7 @@ footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
+  display: inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -371,7 +371,7 @@ footer {
 .hide-title {
   display: none;
 }
-.portfolio-1 {
+.portfolio {
   padding: 96px 0 120px;
 }
 .button-pool {
@@ -387,10 +387,10 @@ footer {
   margin-right: -24px;
 }
 .card-item {
-  flex-basis: calc(100% / 3 -24px);
+  flex-basis: calc(100% / 3 - 24px);
   margin-bottom: 48px;
   background: #ffffff;
-  border: 1px solid var(--button-border-color);
+  border: 1px solid #e7e9fc;
 }
 .card-item:not(:nth-child(3n)) {
   margin-right: 24px;
