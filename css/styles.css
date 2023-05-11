@@ -130,8 +130,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  font-style: normal;
 }
 
+.contact-list-address {
+  display: flex;
+  margin-left: auto;
+
+}
 .contact-list {
   display: flex;
   margin-left: auto;
